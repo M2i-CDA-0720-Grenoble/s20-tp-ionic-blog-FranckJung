@@ -1,14 +1,14 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React, { FC } from 'react';
 import './Home.css';
-import { ArticlesList } from '../components';
+import { CategoriesList } from '../components';
 
-const Home: FC = () => {
+const Categories: FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Blog</IonTitle>
+          <IonTitle>Categories</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -18,11 +18,11 @@ const Home: FC = () => {
           </IonToolbar>
         </IonHeader>
 
-        <ArticlesList/>
+        <CategoriesList/>
 
       </IonContent>
     </IonPage>
   );
 };
 
-export default Home;
+export default Categories;

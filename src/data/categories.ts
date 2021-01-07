@@ -1,6 +1,6 @@
-import { Category } from "../models";
+import { CategoryModel } from "../models";
 
-const categories: Category[] = [
+const categories: CategoryModel[] = [
   {
     "id": 3635147,
     "name": "News",
