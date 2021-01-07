@@ -1,7 +1,9 @@
 import { IonList } from "@ionic/react";
 import React, { FC }  from "react";
 
-const CategoriesList = () => {
+interface CategoriesListProps {}
+
+const CategoriesList: FC<CategoriesListProps> = () => {
     
     return(
         <IonList>

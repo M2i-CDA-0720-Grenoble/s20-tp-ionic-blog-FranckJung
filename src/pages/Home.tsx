@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonItem, IonLabel, IonList, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React, { FC } from 'react';
 import './Home.css';
 import { ArticlesList } from '../components';
@@ -9,6 +9,11 @@ const Home: FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>Blog</IonTitle>
+          <IonList>
+            <IonItem routerLink="/categories">
+              <IonLabel >Categories</IonLabel>
+            </IonItem>
+          </IonList>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
