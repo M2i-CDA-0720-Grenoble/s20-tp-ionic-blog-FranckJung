@@ -1,9 +1,9 @@
-import { Article } from "../models";
+import { ArticleModel } from "../models";
 import categories from "./categories";
 
 const [newsCategory, sportsCategory, cultureCategory] = categories;
 
-const articles: Article[] = [
+const articles: ArticleModel[] = [
   {
     "id": 3681047,
     "title": "SlamTracker, the app that understands tennis better than you do",

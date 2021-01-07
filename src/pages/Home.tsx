@@ -1,13 +1,14 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React, { FC } from 'react';
 import './Home.css';
+import { ArticleList } from '../components';
 
 const Home: FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle>Blog</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -17,10 +18,7 @@ const Home: FC = () => {
           </IonToolbar>
         </IonHeader>
 
-        <div className="Home-content">
-          <strong>Ready to create an app?</strong>
-          <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-        </div>
+        <ArticleList/>
 
       </IonContent>
     </IonPage>
