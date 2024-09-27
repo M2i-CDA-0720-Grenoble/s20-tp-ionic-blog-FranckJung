@@ -1,2 +1,2 @@
-export type { default as Article } from './Article';
-export type { default as Category } from './Category';
+export type { default as ArticleModel } from './Article';
+export type { default as CategoryModel } from './Category';

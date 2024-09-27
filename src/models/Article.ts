@@ -1,4 +1,4 @@
-import { Category } from ".";
+import { CategoryModel } from ".";
 
 export default interface Article {
   id: number,
@@ -7,5 +7,5 @@ export default interface Article {
   updatedAt: Date,
   content: string,
   cover: string,
-  category: Category,
+  category: CategoryModel,
 }
